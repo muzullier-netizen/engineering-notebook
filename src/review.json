@@ -1,0 +1,117 @@
+[
+  {
+    "entry": "mechanics-strength-stiffness",
+    "question": "轴弯了却没有断，能直接判断强度不足吗？",
+    "answer": "不能。先看卸载后是否恢复，再区分弹性挠度、塑性变形和失稳。"
+  },
+  {
+    "entry": "mechanics-beam-cube",
+    "question": "同宽矩形梁厚度翻倍，为什么抗弯刚度可变8倍？",
+    "answer": "在线弹性梁条件下I=bh³/12。材料离中性轴更远，面积与力臂的积分共同增加抗弯能力。"
+  },
+  {
+    "entry": "mechanics-ribs",
+    "question": "加筋一定比加厚便宜吗？",
+    "answer": "不一定。冲压筋、折边与焊接筋的工装、工序和变形成本不同，还要比较功能。"
+  },
+  {
+    "entry": "vibration-frequency",
+    "question": "1500rpm对应什么频率？6叶片的通过频率呢？",
+    "answer": "转频25Hz；6叶片的通过频率为150Hz。仍需检查倍频、振型和阻尼。"
+  },
+  {
+    "entry": "fea-modal-workflow",
+    "question": "模态图上的变形就是运行中的振幅吗？",
+    "answer": "不是。振型通常归一化显示；真实响应还需要激励、阻尼和适当动力学分析。"
+  },
+  {
+    "entry": "vibration-isolator",
+    "question": "为什么橡胶垫不是越软越好？",
+    "answer": "要匹配静载、频率比和允许位移，兼顾共振、启停、下沉、温度与老化。"
+  },
+  {
+    "entry": "tolerance-size",
+    "question": "φ20±0.01mm的公差是多少？",
+    "answer": "极限范围19.99～20.01mm，总公差0.02mm；±0.01mm是上下偏差。"
+  },
+  {
+    "entry": "tolerance-geometry",
+    "question": "四个孔直径合格却装不上，优先查圆度吗？",
+    "answer": "先检查位置关系、孔组与基准和装配条件；圆度合格不保证孔中心位置正确。"
+  },
+  {
+    "entry": "fit-bearing",
+    "question": "轴在转就一定只有内圈需要过盈吗？",
+    "answer": "应看载荷相对套圈是否旋转，还要考虑温度、游隙和载荷大小。"
+  },
+  {
+    "entry": "joint-key-interference",
+    "question": "热装为什么能把过盈件装进去？",
+    "answer": "主要是热膨胀使外包件孔径增大，并非靠提高韧性。"
+  },
+  {
+    "entry": "joint-preload",
+    "question": "扭矩和预紧力分别用什么单位？",
+    "answer": "扭矩N·m，预紧力N；两者受摩擦和几何影响，不能直接等同。"
+  },
+  {
+    "entry": "joint-loosening-fatigue",
+    "question": "螺纹锁固胶是不是都不可拆？",
+    "answer": "不是。需按具体胶等级、材料、温度、固化和维护要求选用。"
+  },
+  {
+    "entry": "mechanics-stress-concentration",
+    "question": "为什么轴肩圆角不能无限加大？",
+    "answer": "须兼顾相邻轴承倒角、定位和加工空间；降低应力集中不应造成装配干涉。"
+  },
+  {
+    "entry": "manufacturing-springback",
+    "question": "折弯90°卸载后变92°，首先想到什么？",
+    "answer": "先确认测量和角度定义，再评估弹性回弹及材料、工具和工艺补偿。"
+  },
+  {
+    "entry": "heat-shaft-route",
+    "question": "调质是什么？淬火变形回火后会自动变直吗？",
+    "answer": "调质通常是淬火加高温回火。回火可调整应力和组织，但不保证自动校直。"
+  },
+  {
+    "entry": "plastic-selection-review",
+    "question": "PB能直接当成PBT归档吗？",
+    "answer": "不能。缩写不同，需确认原料名称与牌号；原语音可能存在听写歧义。"
+  },
+  {
+    "entry": "mold-boss-sink-crack",
+    "question": "螺钉柱缩水，首先怪PA没烘干合适吗？",
+    "answer": "先看局部堆料、冷却与补缩。含水过高更常见银纹、气泡及性能损失等风险。"
+  },
+  {
+    "entry": "mold-glass-fiber",
+    "question": "GF50一定比GF30更抗熔接线开裂吗？",
+    "answer": "不一定。纤维取向、树脂结合和受力方向影响熔接区，需比较具体牌号和零件试验。"
+  },
+  {
+    "entry": "mold-fiber-warpage",
+    "question": "纤维主要沿长度排列，哪个方向通常收缩更大？",
+    "answer": "简化情况下横向即宽度方向通常更大，沿纤维方向的收缩受到更多约束。"
+  },
+  {
+    "entry": "mold-cooling",
+    "question": "冷却水路等间距就一定冷得均匀吗？",
+    "answer": "不一定。还要看型面距离、流量、厚区和深型芯热点，目标是合适的工作面温度。"
+  },
+  {
+    "entry": "mold-cycle-time",
+    "question": "30秒周期有18秒冷却，冷却改12秒，理论产出增多少？",
+    "answer": "其他时间不变则周期24秒，理论产出提高30/24−1=25%，仍需保证良率与尺寸。"
+  },
+  {
+    "entry": "mold-ejection",
+    "question": "脱模阻力大等于顶针布置不合理吗？",
+    "answer": "不是。收缩抱紧、表面、斜度和压差决定阻力；顶出系统决定施力位置与顺序。"
+  },
+  {
+    "entry": "mold-deep-core",
+    "question": "有斜度无倒扣，为何深腔仍像被吸住？",
+    "answer": "可能是脱离时补气不足形成压差，也可能有收缩摩擦。需区分机理再设计补气和顶出。"
+  }
+]
