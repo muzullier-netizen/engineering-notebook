@@ -1,5 +1,5 @@
 import React from 'react';
-import { getFile } from './storage';
+import { getFile } from './sync-storage';
 import { useEffect, useRef, useState } from 'react';
 export default function STLViewer({id}:{id:string}) {
  const canvas=useRef<HTMLCanvasElement>(null); const [err,setErr]=useState(''); const [info,setInfo]=useState('正在读取模型…'); const reset=useRef(()=>{});
